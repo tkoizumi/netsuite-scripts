@@ -1,4 +1,4 @@
-var parent = document.getElementById("tr_fg_fieldGroup2");
+var parent = document.getElementById("tr_fg_fieldGroup2"); //gets elements in the first row in Customer
 var c = parent.children;
 
 function displayCustDet (newtitle, newinfo, colrow) {
