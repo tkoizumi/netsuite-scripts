@@ -10,6 +10,10 @@ var UGEBJ_price = item_record.getLineItemMatrixValue( 'price1', 'price', '12', '
 var MSRP_USA = item_record.getLineItemMatrixValue( 'price1', 'price', '11', '1'); //retrieves pricing record for MSRP for US customers in USD
 var MSRP_INTL = item_record.getLineItemMatrixValue( 'price1', 'price', '10', '1'); //retrieves pricing record for MSRP for International customers in USD
 
-alert(item_name + '\nOur cost: $' + UGEBJ_price + ' , MSRP, Non-Parter USA: $' + MSRP_USA + ' , MSRP, Non-Parter INTL: $' + MSRP_INTL) //creates the popup with the pricing info
+displayCustInfo ('Our Cost', UGEBJ_price, 'col');
+displayCustInfo ('MSRP (USA)', MSRP_USA, 'row');
+displayCustInfo ('MSRP (INTL)', MSRP_INTL, 'row');
+
+//alert(item_name + '\nOur cost: $' + UGEBJ_price + ' , MSRP, Non-Parter USA: $' + MSRP_USA + ' , MSRP, Non-Parter INTL: $' + MSRP_INTL) //creates the popup with the pricing info
 
 }
