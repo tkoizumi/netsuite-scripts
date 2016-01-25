@@ -2,10 +2,10 @@
 
 function colAdjust(){
 
-var length = children.length;
+var length = c.length;
 var percent = 100/length + "%"
-	for(i=0;i<children.length;i++){
-    	children[i].style.width=percent;
+	for(i=0;i<c.length;i++){
+    	c[i].style.width=percent;
 		}
 var hbar = document.getElementById("fg_fieldGroup2");
 
